@@ -1,0 +1,131 @@
+{
+  "semanticSegments": [
+    {
+      "startTime": "2024-04-16T18:00:00.000+02:00",
+      "endTime": "2024-04-16T20:00:00.000+02:00",
+      "timelinePath": [
+        {
+          "point": "50.9336129°, 6.9837706°",
+          "time": "2024-04-16T18:34:00.000+02:00"
+        }
+      ]
+    },
+    {
+      "startTime": "2024-04-16T18:33:39.000+02:00",
+      "endTime": "2024-04-16T18:41:54.000+02:00",
+      "startTimeTimezoneUtcOffsetMinutes": 120,
+      "endTimeTimezoneUtcOffsetMinutes": 120,
+      "activity": {
+        "start": {
+          "latLng": "50.9336129°, 6.9837706°"
+        },
+        "end": {
+          "latLng": "50.9336129°, 6.9837706°"
+        },
+        "distanceMeters": 11457.0,
+        "topCandidate": {
+          "type": "IN_PASSENGER_VEHICLE",
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "startTime": "2024-05-14T14:04:43.000+02:00",
+      "endTime": "2024-05-14T14:37:28.000+02:00",
+      "startTimeTimezoneUtcOffsetMinutes": 120,
+      "endTimeTimezoneUtcOffsetMinutes": 120,
+      "visit": {
+        "hierarchyLevel": 0,
+        "probability": 0.7699999809265137,
+        "topCandidate": {
+          "placeId": "ChIJG2DC5DnJvkcRMYiHOUw4vrQ",
+          "semanticType": "WORK",
+          "probability": 0.43470776081085205,
+          "placeLocation": {
+            "latLng": "50.9336129°, 6.9837706°"
+          }
+        }
+      }
+    }
+  ],
+  "rawSignals": [
+    {
+      "activityRecord": {
+        "probableActivities": [
+          {
+            "type": "ON_FOOT",
+            "confidence": 0.949999988079071
+          },
+          {
+            "type": "WALKING",
+            "confidence": 0.949999988079071
+          },
+          {
+            "type": "ON_BICYCLE",
+            "confidence": 0.019999999552965164
+          },
+          {
+            "type": "UNKNOWN",
+            "confidence": 0.019999999552965164
+          },
+          {
+            "type": "RUNNING",
+            "confidence": 0.009999999776482582
+          }
+        ],
+        "timestamp": "2024-06-14T12:02:37.000+02:00"
+      }
+    }
+  ],
+  "userLocationProfile": {
+    "frequentPlaces": [
+      {
+        "placeId": "ChIJG2DC5DnJvkcRMYiHOUw4vrQ",
+        "placeLocation": "50.9336129°, 6.9837706°",
+        "label": "WORK"
+      }
+    ],
+    "frequentTrips": [
+      {
+        "waypointIds": [
+          "ChIJG2DC5DnJvkcRMYiHOUw4vrQ"
+        ],
+        "modeDistribution": [
+          {
+            "mode": "IN_PASSENGER_VEHICLE",
+            "rate": 1.0
+          }
+        ],
+        "startTimeMinutes": 6732,
+        "endTimeMinutes": 6842,
+        "durationMinutes": 110,
+        "confidence": 0.0,
+        "commuteDirection": "COMMUTE_DIRECTION_WORK_TO_HOME"
+      }
+    ],
+    "persona": {
+      "travelModeAffinities": [
+        {
+          "mode": "IN_PASSENGER_VEHICLE",
+          "affinity": 0.65
+        },
+        {
+          "mode": "WALKING",
+          "affinity": 0.20
+        },
+        {
+          "mode": "IN_TRAIN",
+          "affinity": 0.05
+        },
+        {
+          "mode": "IN_SUBWAY",
+          "affinity": 0.25
+        },
+        {
+          "mode": "IN_TRAM",
+          "affinity": 0.25
+        }
+      ]
+    }
+  }
+}
